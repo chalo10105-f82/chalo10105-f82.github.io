@@ -1,6 +1,7 @@
 ---
 title: "Evidencia   Ejercicio 1"
 description: "Cuantos empleados han pasado por mas de un cargo en la compañía"
+publishDate: 2026-02-14
 isFeatured: true
 ---
 
