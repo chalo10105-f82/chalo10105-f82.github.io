@@ -24,14 +24,8 @@ const siteConfig: SiteConfig = {
             text: 'Evidencias',
             href: '/projects'
         },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
+        
+        
     ],
     footerNavLinks: [
         {
@@ -53,18 +47,13 @@ const siteConfig: SiteConfig = {
     ],
     
     hero: {
-        title: '',
+        title: 'Video',
         text: "Video contando un poco sobre quien soy",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
         },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+        
     },
     subscribe: {
         enabled: true,
