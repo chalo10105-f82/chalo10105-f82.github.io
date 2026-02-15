@@ -1,5 +1,5 @@
 import avatar from '../assets/images/Avatar1.jpg';
-import hero from '../assets/images/hero.jpg';
+//import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
@@ -49,10 +49,7 @@ const siteConfig: SiteConfig = {
     hero: {
         title: 'Video',
         text: "Video contando un poco sobre quien soy",
-        image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        video: "/videos/Video1.mp4"
         
     },
     subscribe: {
