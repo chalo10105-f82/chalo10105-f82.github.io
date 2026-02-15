@@ -9,7 +9,7 @@ const siteConfig: SiteConfig = {
         alt: 'Ethan Donovan'
     },
     title: 'Gonzalo Ayala Almeciga',
-    subtitle: 'Minimal Astro.js theme',
+    subtitle: '',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -51,23 +51,10 @@ const siteConfig: SiteConfig = {
             href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
-    socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
-    ],
+    
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: '',
+        text: "Video contando un poco sobre quien soy",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
@@ -81,8 +68,8 @@ const siteConfig: SiteConfig = {
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: '',
+        text: '',
         form: {
             action: '#'
         }
