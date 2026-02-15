@@ -9,12 +9,12 @@ isFeatured: true
 SELECT
     LPAD(' ', LEVEL * 2) || INITCAP(e.FIRST_NAME) || ' ' || INITCAP(e.LAST_NAME) AS empleado,
     INITCAP(m.FIRST_NAME) || ' ' || INITCAP(m.LAST_NAME) AS jefe,
-    RPAD('*', LENGTH(e.EMAIL) - 3, '*') || SUBSTR(e.EMAIL, -3) AS email_empleado,
+    RPAD('*', LENGTH(e.EMAIL) - 3, '*') || SUBSTR(e.EMAIL, -3) AS "Email empleado",
     CASE
         WHEN m.EMAIL IS NOT NULL THEN
             RPAD('*', LENGTH(m.EMAIL) - 3, '*') || SUBSTR(m.EMAIL, -3)
         ELSE NULL
-    END AS email_jefe
+    END AS "Email jefe"
 FROM HR.EMPLOYEES e
 LEFT JOIN HR.EMPLOYEES m
     ON e.MANAGER_ID = m.EMPLOYEE_ID

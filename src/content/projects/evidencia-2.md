@@ -14,9 +14,9 @@ isFeatured: true
 
 ```sql
 SELECT
-    INITCAP(E.FIRST_NAME || ' ' || E.LAST_NAME) AS "FULL NAME",
-    (C.COUNTRY_NAME)                      AS "COUNTRY",
-    E.SALARY                                   AS "SALARY"
+    INITCAP(E.FIRST_NAME || ' ' || E.LAST_NAME) AS "Nombre Completo",
+    (C.COUNTRY_NAME)                      AS "Continente",
+    E.SALARY                                   AS "Salario"
 FROM HR.EMPLOYEES E
     JOIN HR.DEPARTMENTS D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID
     JOIN HR.LOCATIONS L   ON D.LOCATION_ID = L.LOCATION_ID
