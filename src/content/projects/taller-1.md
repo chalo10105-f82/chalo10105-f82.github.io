@@ -1,9 +1,6 @@
 ---
 title: "Evidencia Taller 1 Completo"
-description: "Contexto del caso La empresa quiere aplicar un ajuste salarial extraordinario. "
-"No se puede hacer de forma masiva sin revisar reglas de negocio."
-"El objetivo es intervenir solo a los empleados correctos y dejar"
-"evidencia."
+description: "Contexto del caso La empresa quiere aplicar un ajuste salarial extraordinario. No se puede hacer de forma masiva sin revisar reglas de negocio.El objetivo es intervenir solo a los empleados correctos y dejar evidencia."
 publishDate: 2026-02-14
 isFeatured: true
 ---
