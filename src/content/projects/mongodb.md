@@ -1,5 +1,5 @@
 ---
-title: "Evidencia   Ejercicio 3"
+title: "Evidencia Consultas en MongoDB"
 description: "trabajo en clase en mongodb, se trabajo en la base de datos de Airbnb sobre consultas basicas, ademas de eso se aprendio algunos operadores"
 publishDate: 2026-04-29
 isFeatured: true
