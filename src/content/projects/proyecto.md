@@ -1,8 +1,8 @@
 ---
 title: "Proyecto"
-description: "CODIGO Proyecto"
+description: "Link repositorio del codigo del Proyecto"
 publishDate: 2026-02-14
 isFeatured: true
 ---
-Proyecto
 
+[Ver repositorio en GitHub](https://github.com/chalo10105-f82/Bases2-Proyecto-DevRacing)
